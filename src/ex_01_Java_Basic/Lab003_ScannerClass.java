@@ -10,7 +10,7 @@ public class Lab003_ScannerClass {
         int a=sc.nextInt();
         System.out.println("Enter second number:");
         int b=sc.nextInt();
-
+        sc.close();
         System.out.println(a+b);
 
     }
