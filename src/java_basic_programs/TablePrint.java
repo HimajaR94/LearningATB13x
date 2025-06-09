@@ -1,4 +1,4 @@
-package ex_01_Java_Basic;
+package java_basic_programs;
 
 import java.util.Scanner;
 
@@ -9,12 +9,11 @@ public class TablePrint {
         System.out.println("Enter value for Table:");
         Scanner sc= new Scanner(System.in);
         int n=sc.nextInt();
-        for(int i=1; i<=10; i++)
-        {
+        for(int i=1; i<=10; i++) {
 
             System.out.println(n+"*"+i+"="+(n*i));
         }
-
+        sc.close();
 
     }
 

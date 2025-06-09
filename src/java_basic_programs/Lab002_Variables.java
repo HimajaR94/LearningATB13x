@@ -1,6 +1,4 @@
-package ex_01_Java_Basic;
-
-import org.w3c.dom.ls.LSOutput;
+package java_basic_programs;
 
 public class Lab002_Variables {
     public static void main(String[] args) {

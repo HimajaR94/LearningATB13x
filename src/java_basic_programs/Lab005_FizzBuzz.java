@@ -1,4 +1,4 @@
-package ex_01_Java_Basic;
+package java_basic_programs;
 
 public class Lab005_FizzBuzz {
 
