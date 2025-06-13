@@ -16,6 +16,7 @@ public class UserInput_Scanner01 {
         System.out.println("Enter the double value");
         double double_input=scanner.nextDouble();
         System.out.println(double_input);
+        scanner.close();
 
 
     }

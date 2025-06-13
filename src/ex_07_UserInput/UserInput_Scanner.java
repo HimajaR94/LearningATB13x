@@ -10,5 +10,6 @@ public class UserInput_Scanner {
 
         String canIVote= (age>=18)?"Yes":"No";
         System.out.println(canIVote);
+        scanner.close();
     }
 ;}
