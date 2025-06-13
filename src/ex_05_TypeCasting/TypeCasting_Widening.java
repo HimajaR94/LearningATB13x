@@ -1,6 +1,4 @@
-package ex_06_TypeCasting;
-
-import java.io.PrintStream;
+package ex_05_TypeCasting;
 
 public class TypeCasting_Widening {
     public static void main(String[] args) {

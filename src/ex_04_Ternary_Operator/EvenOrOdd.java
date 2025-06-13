@@ -1,4 +1,4 @@
-package ex_05_Ternary_Operator;
+package ex_04_Ternary_Operator;
 
 public class EvenOrOdd {
     public static void main(String[] args) {

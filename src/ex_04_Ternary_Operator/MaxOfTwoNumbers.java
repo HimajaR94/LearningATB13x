@@ -1,4 +1,4 @@
-package ex_05_Ternary_Operator;
+package ex_04_Ternary_Operator;
 
 import java.util.Scanner;
 
@@ -11,6 +11,7 @@ public class MaxOfTwoNumbers {
         int result= a>b?a:b;
         System.out.println("Max of two numbers:"+result);
         System.out.println("Min of two numbers:"+Math.min(a,b));
+        scanner.close();
 
     }
 }

@@ -1,4 +1,4 @@
-package ex_06_TypeCasting;
+package ex_05_TypeCasting;
 
 public class ASCII_Integer {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ex_05_Ternary_Operator;
+package ex_04_Ternary_Operator;
 
 import java.util.Scanner;
 
@@ -20,6 +20,7 @@ public class GradeCalculation {
 
       String result=  marks>=90? "A+":(marks>=75)?"A":(marks>=60)?"B":(marks>=40)?"C":"fail";
         System.out.println(result);
+        scanner.close();
 
 
 
