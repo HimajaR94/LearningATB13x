@@ -9,7 +9,7 @@ public class PalindromeChecker {
 
         System.out.println("Enter a String");
         Scanner sc=new Scanner(System.in);
-        String str=sc.next();
+        String str=sc.nextLine();
 
         String cleaned="";
         for (int i=0; i<str.length();i++)
@@ -21,11 +21,13 @@ public class PalindromeChecker {
 
             }
         }
+        System.out.println(cleaned);
         String reversed="";
-        for (int i=str.length()-1;i>=0;i--)
+        for (int i=cleaned.length()-1;i>=0;i--)
         {
             reversed+=cleaned.charAt(i);
         }
+        System.out.println(reversed);
         if(cleaned.equals(reversed))
             System.out.println("The String is a palindrome");
         else
