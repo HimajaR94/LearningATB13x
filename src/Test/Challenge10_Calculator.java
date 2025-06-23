@@ -11,21 +11,21 @@ public class Challenge10_Calculator {
         System.out.println("Enter two numbers:");
         int a =scanner.nextInt();
         int b= scanner.nextInt();
-        System.out.println("Enter the operation to be performed:\n 1.Addition \n 2.Subtraction \n 3.Multiplication \n 4.Division");
-        String op=scanner.next().toLowerCase();
+        System.out.println("Enter the operation to be performed:\n 1.'+' for Addition \n 2.'-'Subtraction \n 3.'*'Multiplication \n 4.'/'Division");
+        String op=scanner.next();
 
         switch (op)
         {
-            case "addition","add", "1":
+            case "+":
                 System.out.println("Addition:"+(a+b));
                 break;
-            case "subtraction", "subtract", "2":
+            case "-":
                 System.out.println("Subtraction:"+(a-b));
                 break;
-            case "multiplication", "multiply", "3":
+            case "*":
                 System.out.println("Multiplication:"+(a*b));
                 break;
-            case "division", "divide", "4": {
+            case "/": {
                 if (b == 0) {
                     System.out.println("Error: cannot divide by zero");
                 } else {
