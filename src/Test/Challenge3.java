@@ -21,6 +21,6 @@ public class Challenge3 {
         boolean g=(a > b) || (a > 0); // 10>5 is true and 10>0 is true so the result is true
         boolean h=!(a > b); //Negative of 10>5 is false
         System.out.println("a==b:"+c+ " "+"a>b:"+d+" "+"a<b:"+e+" "+"(a > b) && (a > 0):"+f+" "+"(a > b) ||(a > 0):"+g+" "+"!(a > b):"+h);
-
+        scanner.close();
     }
 }

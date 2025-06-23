@@ -11,6 +11,6 @@ public class Challenge4 {
         System.out.println("Original:"+i+" "+"Pre-increment:"+(++i)+" "+"Post=increment:"+(i++)+" "+"Pre-decrement:"+(--i)+" "+"Post-decrement:"+(i--));
 
 
-
+        scanner.close();
     }
 }

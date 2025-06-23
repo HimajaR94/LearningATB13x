@@ -20,5 +20,6 @@ public class Challenge2 {
         int div=a/b; //2
         int mod=a%b; //0
         System.out.println("Addition:"+add + " "+"Subtraction:"+sub+" "+"Multiplication:"+mul+" "+"Division:"+div+" "+"Modulus:"+mod);
+        scanner.close();
     }
 }
