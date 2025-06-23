@@ -17,20 +17,6 @@ public class Challenge14_Star_Pattern {
         }
 
 
-        System.out.println("\nPyramid Pattern:");
-        for (int i = 1; i <= n; i++)
-        {
-            for (int space = 1; space <= n - i; space++)
-            {
-                System.out.print("  ");  // Two spaces for alignment
-            }
-        // Print stars
-            for (int star = 1; star <= (2 * i - 1); star++)
-            {
-                System.out.print("* ");
-            }
-            System.out.println();  // Move to next line
-        }
     }
 }
 
